@@ -9,7 +9,7 @@
     width: 500px;
     height: auto;
     border: 2px solid green;
-    box-shadow: 2px 2px;
+    box-shadow: 5px 5px 8px rgb(123, 255, 0), 10px 10px 8px red, 15px 15px 8px rgb(128, 0, 0);
     background-color: pink;
     margin-top: 100px;
 }
@@ -18,7 +18,7 @@
     width: 500px;
     height: auto;
     background-color:lightblue;
-    box-shadow: 2px 2px 2px 2px;
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
     position: relative;
     left: 30%;
     margin-top: 2%;
@@ -29,4 +29,14 @@
     position: relative;
     left: 2%;
     width: 170px;
+}
+.inpt-one{
+    position: relative; 
+    left: 1%;
+    padding: 3px;
+    margin: 10px;
+}
+h1{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    text-align: center;
 }

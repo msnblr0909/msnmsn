@@ -50,7 +50,7 @@ function JsonServer() {
         />
         <br/> <br/>
           <label>Mobile:</label>
-        <input className="inpt"
+        <input className="inpt-one"
           type="name"
           name="name"
           value={mobile}
@@ -60,7 +60,10 @@ function JsonServer() {
         />
         <br />
         <br />
-        <button onClick={Handler}>Submit</button>
+        <button style={{position: "relative",
+    /* right: -131px; */
+    left: "157px", top:"-13px",
+    width: "90px"}} onClick={Handler}>Submit</button>
       </div>
       <div className="tblstyle">
         <table border="1">
