@@ -18,7 +18,7 @@
     width: 500px;
     height: auto;
     background-color:lightblue;
-    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+    box-shadow: 5px 5px 8px rgb(238, 255, 0), 10px 10px 8px rgb(0, 26, 255), 15px 15px 8px green;
     position: relative;
     left: 30%;
     margin-top: 2%;
