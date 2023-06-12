@@ -6,13 +6,16 @@ function JsonServer() {
   const [name, setName] = useState("");
   const [mobile,setMobile]=useState("");
   useEffect(() => {
+    getUser();
+  }, []);
+  function getUser(){
     fetch("http://localhost:4000/users").then((result) => {
       result.json().then((resp) => {
         setData(resp);
-        console.log(resp);
+        // console.log(resp);
       });
     });
-  }, []);
+  }
   function Handler(e) {
     console.log({ name });
     alert("successfull");
@@ -34,6 +37,20 @@ function JsonServer() {
     //   alert(abc);
     // }
   }
+  function deleteUsers(id)
+  {
+fetch(`http://localhost:4000/users/${id}`,{
+
+method:"DELETE"
+  }).then((result2)=>{
+  result2.json().then((resp2)=>{
+console.warn(resp2);
+getUser();
+  })
+})
+}
+
+  
   return (
     <>
 
@@ -68,14 +85,18 @@ function JsonServer() {
       <div className="tblstyle">
         <table border="1">
           <tr>
+            <td>ID</td>
             <td>Name</td>
             <td>Mobile</td>
+            <td>Operation</td>
           </tr>
           {data &&
-            data.map((item) => 
-              <tr>
+            data.map((item,i) => 
+              <tr key={i}>
+                <td>{item.id}</td>
                 <td>{item.name}</td>
                 <td>{item.mobile}</td>
+                <td><button onClick={()=>deleteUsers(item.id)}>Delete</button></td>
               </tr>
             )}
         </table>

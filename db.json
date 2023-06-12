@@ -6,36 +6,19 @@
       "mobile": 6364311311
     },
     {
-      "id": 2,
-      "name": "Raghvendra",
-      "mobile": 9480621631
+      "name": "Amma",
+      "mobile": "9845196316",
+      "id": 9
     },
     {
-      "id": 3,
-      "name": "Nirmala",
-      "mobile": 9980439663
+      "name": "Shwetha",
+      "mobile": "776000456",
+      "id": 10
     },
     {
-      "name": "Harish",
-      "id": 4
-    },
-    {
-      "name": "Naveen",
-      "id": 5
-    },
-    {
-      "name": "Naveen",
-      "id": 6
-    },
-    {
-      "name": "mahlaxmi",
-      "mobile": "81067555",
-      "id": 7
-    },
-    {
-      "name": "SMNAIK",
-      "mobile": "9449769745",
-      "id": 8
+      "name": "Rafghvendra",
+      "mobile": "9480621631",
+      "id": 11
     }
   ]
 }
