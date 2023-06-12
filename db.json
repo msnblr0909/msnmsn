@@ -3,22 +3,62 @@
     {
       "id": 1,
       "name": "Manjunath",
-      "mobile": 6364311311
-    },
-    {
-      "name": "Amma",
-      "mobile": "9845196316",
-      "id": 9
+      "mobile": 6364311311,
+      "party": "BJP"
     },
     {
       "name": "Shwetha",
       "mobile": "776000456",
-      "id": 10
+      "party": "JDS",
+      "id": 21
     },
     {
-      "name": "Rafghvendra",
+      "name": "SMNAIK",
+      "mobile": "9449769745",
+      "party": "BJP",
+      "id": 22
+    },
+    {
+      "name": "Bhatkal Manjunath",
+      "mobile": "7848879484",
+      "party": "JDS",
+      "id": 23
+    },
+    {
+      "name": "Manjunath Sundolli",
+      "mobile": "8951030552",
+      "party": "BJP",
+      "id": 24
+    },
+    {
+      "name": "sandeep",
+      "mobile": "9739866986",
+      "party": "BJP",
+      "id": 25
+    },
+    {
+      "name": "Satish gowda",
+      "mobile": "9739633753",
+      "party": "JDS",
+      "id": 26
+    },
+    {
+      "name": "Udaya Mangalore",
+      "mobile": "9480675524",
+      "party": "BJP",
+      "id": 27
+    },
+    {
+      "name": "Raghvendra",
       "mobile": "9480621631",
-      "id": 11
+      "party": "BJP",
+      "id": 28
+    },
+    {
+      "name": "Manjunath",
+      "mobile": 6364311311,
+      "party": "BJP",
+      "id": 29
     }
   ]
 }
